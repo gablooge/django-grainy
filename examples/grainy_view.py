@@ -47,5 +47,5 @@ def detail_view(request, id):
     # ignore the user's superuser priviledges
     ignore_grant_all=True,
 )
-def detail_view(request, id):
+def detail_view(request, id):  # noqa: F811
     return HttpResponse()
